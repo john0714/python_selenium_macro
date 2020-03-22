@@ -28,7 +28,7 @@ while 1:
 		goNextArena=driver.find_elements_by_id("btcp")
 		
 		if ponny:
-			ponny.send_keys(str(random.randrange(1,3)))
+			ponny.send_keys("A")
 			ponny.submit()
 		elif goNextArena:
 			goNextArena[0].click()
